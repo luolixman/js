@@ -1,4 +1,4 @@
-//0 * * * * 环游记 自动入会、签到、任务、升级、开宝箱、捡金币
+//cron 11 0-20/5 * * * 环游记 自动入会、签到、任务、升级、开宝箱、捡金币
 //半残品随便跑跑
 const $ = new Env('环游记');
 
@@ -144,12 +144,17 @@ $.shareCodesArr = [];
                                 }
                                 break
                             case 21:
+                                if (process.env.FS_LEVEL != 'card') {
+                                    console.log('不入会,FS_LEVEL=card入会')
+                                    break
+                                }
                                 for (var o = 0; o < task.brandMemberVos.length; o++) {
                                     if (task.brandMemberVos[o].status == 1) {
                                         console.log(`\n\n ${task.brandMemberVos[o].title}`)
                                         memberUrl = task.brandMemberVos[o].memberUrl
                                         memberUrl = transform(memberUrl)
-                                        await join(task.brandMemberVos[o].vendorIds, memberUrl.channel, memberUrl.shopId ? memberUrl.shopId : "")
+                                        if (i < 10) //限制开卡账号数目
+                                            await join(task.brandMemberVos[o].vendorIds, memberUrl.channel, memberUrl.shopId ? memberUrl.shopId : "")
                                         await travel_collectScore(task.brandMemberVos[o].taskToken, task.taskId)
                                     }
 
