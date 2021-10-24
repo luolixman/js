@@ -3,7 +3,7 @@
 '''
 Author: Curtin
 cron: 0 0,23 * * *
-new Env('全民开红包-助力');
+new Env('qmkhb助力');
 '''
 
 # 是否按ck顺序助力, true: 按顺序助力 false：按指定用户助力，默认true
