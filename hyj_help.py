@@ -1,14 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*
 '''
-项目名称: JD-Script / jd_hyj 
 Author: Curtin
-功能：环游记-好友助力，默认按顺序助力，每个号6次助力机会
-Date: 2021/10/24 下午6:52
-TG交流 https://t.me/topstyle996
-TG频道 https://t.me/TopStyle2021
 cron: 0 0,23 * 10-11 *
-new Env('环游记-好友助力');
+new Env('hyj助力');
 '''
 
 
