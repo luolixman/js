@@ -1,8 +1,8 @@
 /*
-热爱环游记 
+热爱环游记组队
 [task_local]
-#热爱环游记
-1 0-23/2 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_hyj.js, tag=热爱环游记, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+#热爱环游记组队
+1 0-23/2 * * *  tag=热爱环游记组队, enabled=true
 
 */
 const $ = new Env('热爱环游记');
