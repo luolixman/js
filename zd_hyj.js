@@ -2,7 +2,7 @@
 热爱环游记 
 [task_local]
 #热爱环游记
-2 0-23/2 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_hyj.js, tag=热爱环游记, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+1 0-23/2 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_hyj.js, tag=热爱环游记, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 
 */
 const $ = new Env('热爱环游记');
