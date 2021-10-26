@@ -3,14 +3,6 @@
 '''
 项目名称: JD-Script / jd_hyj 
 Author: Curtin
-功能：环游记
-    1、好友助力，默认按顺序助力，每个号6次助力机会
-    2、浏览并关注任务
-    3、待完成
-Date: 2021/10/24 下午6:52
-Update: 2021/10/24 下午11:52
-TG交流 https://t.me/topstyle996
-TG频道 https://t.me/TopStyle2021
 cron: 0 0,23 * 10-11 *
 new Env('环游记');
 '''
