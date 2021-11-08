@@ -7,7 +7,7 @@ Author: Curtin
 Date: 2021/11/08 下午4:48
 TG交流 https://t.me/topstyle996
 TG频道 https://t.me/TopStyle2021
-cron: 0 0,23 * * *
+cron: 0 0,1,8,23 * * *
 new Env('全民开红包-助力');
 '''
 
