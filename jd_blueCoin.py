@@ -8,7 +8,7 @@ Date: 2021/4/17 上午11:22
 update: 2021/11/08 20:30
 TG交流 https://t.me/topstyle996
 TG频道 https://t.me/TopStyle2021
-建议cron: 59 23 * * *  python3 jd_blueCoin.py
+建议cron: 0 0 * * *  python3 jd_blueCoin.py
 new Env('东东超市商品兑换');
 '''
 ################【参数】######################
